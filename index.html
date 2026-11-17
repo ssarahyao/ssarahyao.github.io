@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarah Yao</title>
+  <meta name="description" content="Sarah Yao is a Stanford electrical engineering student who builds robots and technology, writes for The Stanford Daily, and leads tech policy, all with the humanity they serve in mind.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ MASTHEAD ============ -->
+  <header class="masthead">
+    <div class="masthead-rule">
+      <span>Vol. I</span>
+      <span>Stanford, California</span>
+      <span>Technology × Humanity</span>
+    </div>
+    <h1 class="nameplate"><a href="#top">Sarah Yao</a></h1>
+    <nav class="nav" aria-label="Sections">
+      <a href="#tech">Tech</a>
+      <a href="#writing">Writing</a>
+      <a href="#policy">Policy</a>
+      <a href="#experience">Experience</a>
+      <a href="#offline">Offline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ LEAD / INTRO ============ -->
+    <section class="lead">
+      <figure class="lead-photo">
+        <img src="images/headshot.jpg" alt="Portrait of Sarah Yao" width="900" height="900">
+      </figure>
+      <div class="lead-text">
+        <p class="kicker">Electrical Engineering · Creative Writing · Public Policy</p>
+        <h2 class="headline">I build robots and technology without losing sight of the humanity they’re built for.</h2>
+        <p class="dek">I study electrical engineering at Stanford, with minors in creative writing and public policy. I’ve done research at a national lab, built NSF-supported robots, and led tech policy through the Iowa Legislature. I’m open to opportunities where technology meets humanity.</p>
+        <p class="lead-links">
+          <a class="btn" href="#tech">See the work</a>
+          <a class="btn btn-ghost" href="resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ I. TECH ============ -->
+    <section id="tech" class="section">
+      <div class="section-head">
+        <p class="section-num">I.</p>
+        <h2>Tech</h2>
+        <p>Robots, research software, and the teams behind them.</p>
+      </div>
+
+      <!-- Team Neutrino feature -->
+      <article class="story">
+        <div class="slideshow" data-slideshow>
+          <div class="slides">
+            <figure class="slide">
+              <img src="images/judges-champs.jpg" alt="Sarah presenting Team Neutrino's robot to judges in the pits at the FIRST World Championship" loading="lazy">
+              <figcaption>Presenting to judges at the FIRST World Championship, Houston</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="images/robot-reveal.jpg" alt="Sarah speaking with Team Neutrino in front of a projected slide at the annual robot reveal" loading="lazy">
+              <figcaption>Presenting at Team Neutrino’s annual robot reveal</figcaption>
+            </figure>
+            <figure class="slide slide-portrait">
+              <img src="images/deans-list-champs.jpg" alt="Sarah with fellow Dean's List finalists at the FIRST World Championship awards" loading="lazy">
+              <figcaption>Dean’s List celebration at the FIRST World Championship, Houston</figcaption>
+            </figure>
+          </div>
+          <div class="slide-controls">
+            <button type="button" class="slide-btn" data-prev aria-label="Previous photo">←</button>
+            <span class="slide-count" data-count>1 / 3</span>
+            <button type="button" class="slide-btn" data-next aria-label="Next photo">→</button>
+          </div>
+        </div>
+
+        <div class="story-body">
+          <p class="piece-kicker">4-H FIRST Robotics Competition Team Neutrino #3928</p>
+          <h3 class="story-title">Captain &amp; Technical Lead</h3>
+          <p>I captained Team Neutrino in the 2024–25 and 2025–26 seasons. I led 40+ students across eight technical and business subteams, overseeing robot development, competition strategy and operations. I directed technical work on autonomous software, controls, electronics and robot systems.</p>
+          <p>Off the field, I led fundraising and sponsor relations that brought in $60K+ a year from 20+ sponsors. Our outreach reached 13,000+ people a year through 30+ community events.</p>
+
+          <dl class="ledger">
+            <div><dt>2022–2026</dt><dd>FIRST World Championship qualifier every season, earning the <strong>Engineering Inspiration Award</strong>: FIRST’s prestigious championship-qualifying award for advancing STEM in the community</dd></div>
+            <div><dt>2025–26</dt><dd><strong>Regional Winners</strong></dd></div>
+            <div><dt>2024–25</dt><dd><strong>Regional Finalists</strong> · <strong>FIRST Dean’s List Finalist</strong>, chosen as one of a handful of finalists per region from 150,000+ students worldwide, for leadership, technical expertise and service</dd></div>
+          </dl>
+
+          <div class="sub">
+            <p class="piece-kicker">Outreach program · Team Neutrino</p>
+            <h4>FLL Blastoff!</h4>
+            <p>I led our team’s first efforts to found FLL Blastoff!, a rural robotics outreach program. Over two summers it reached 200+ participants and helped launch three new FIRST LEGO League teams.</p>
+          </div>
+        </div>
+      </article>
+
+      <div class="grid grid-2 after-story">
+        <article class="piece">
+          <p class="piece-kicker">NSF ChemMatCARS · Argonne National Lab &amp; UChicago · 2024–2026</p>
+          <h4><a href="https://github.com/ssarahyao/XModFit" target="_blank" rel="noopener">A sessile drop method for XModFit</a></h4>
+          <p>I built Python image-analysis tools that pull quantitative measurements out of experimental images for synchrotron materials research, including droplet profiles, X-ray scattering and tensiometry. For XModFit, a scientific analysis platform, I developed a generalized sessile drop profile method. It finds the droplet’s edge with polar-coordinate interpolation, then uses Young–Laplace fitting to model the drop and its surface tension.</p>
+          <p class="tags">Python · OpenCV · NumPy · Technical documentation</p>
+          <p class="more"><a href="https://github.com/ssarahyao/XModFit" target="_blank" rel="noopener">View the code on GitHub →</a></p>
+        </article>
+        <article class="piece">
+          <p class="piece-kicker">Iowa State University · Agricultural &amp; Biosystems Eng. · 2025–2026</p>
+          <h4>Human-robot interaction research</h4>
+          <p>As a robotics intern on NSF-supported research into aerial robotics and object manipulation, I designed and prototyped electronics, PCBs and mechanisms that made the robots more functional and reliable. I also built user feedback into how the robots and their interfaces were developed.</p>
+          <p class="tags">PCB design · Electronics · Prototyping · Robotics systems</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ II. WRITING ============ -->
+    <section id="writing" class="section">
+      <div class="section-head">
+        <p class="section-num">II.</p>
+        <h2>Writing</h2>
+        <p>Columns, essays and reporting about culture, family and the people around me.</p>
+      </div>
+
+      <div class="department">
+        <h3 class="dept-title">Small Epiphanies <span class="dept-sub">· my column for The Grind, The Stanford Daily</span></h3>
+        <div class="grid">
+          <!-- This block updates automatically from stanforddaily.com/author/sqyao. Don't edit by hand. -->
+          <!-- DAILY:START -->
+          <article class="piece">
+            <p class="piece-kicker">The Stanford Daily · Nov 13, 2026</p>
+            <h4><a href="https://stanforddaily.com/2026/11/12/small-epiphanies-caltrain-culture/" target="_blank" rel="noopener">Small Epiphanies: Caltrain, culture and contemplation</a></h4>
+            <p>&quot;Why does your culture matter anyways?&quot; Yao contemplates the question on a trip to Chinatown.</p>
+          </article>
+          <article class="piece">
+            <p class="piece-kicker">The Stanford Daily · Oct 21, 2026</p>
+            <h4><a href="https://stanforddaily.com/2026/10/20/small-epiphanies-lost-and-found/" target="_blank" rel="noopener">Small Epiphanies: Lost and found</a></h4>
+            <p>&quot;Live lives that are eulogy builders, not CV builders,&quot; Yao writes.</p>
+          </article>
+          <!-- DAILY:END -->
+        </div>
+        <p class="more"><a href="https://stanforddaily.com/author/sqyao/" target="_blank" rel="noopener">All my Stanford Daily articles →</a></p>
+      </div>
+
+      <div class="department">
+        <h3 class="dept-title">Recognized work</h3>
+        <article class="feature">
+          <div class="feature-stat">
+            <span class="stat-num">&lt;1%</span>
+            <span class="stat-label">of the 335,000+ works entered in 2026 won a national medal</span>
+          </div>
+          <div class="feature-body">
+            <p class="piece-kicker">Scholastic Art &amp; Writing Awards · National Gold Medal &amp; American Voices Medal · 2026</p>
+            <h4><a href="https://www.artandwriting.org/gallery/594e5a26-e897-4836-917a-8e75bb77097a" target="_blank" rel="noopener">Collecting Receipts</a></h4>
+            <p>A personal essay about my mother, the receipts she never throws away, and the fear of losing the people we love. It won a National Gold Medal, which fewer than 1% of submissions receive. It also won the American Voices Medal, which goes to just one work in each region.</p>
+            <p class="more"><a href="https://www.artandwriting.org/gallery/594e5a26-e897-4836-917a-8e75bb77097a" target="_blank" rel="noopener">Read the essay →</a></p>
+          </div>
+        </article>
+
+        <div class="grid grid-2 after-story">
+          <article class="piece">
+            <p class="piece-kicker">AAJA JCamp 2025 · Seattle</p>
+            <h4><a href="https://aaja-jcamp.medium.com/local-flavors-bring-together-people-from-around-the-world-453f105c9e61" target="_blank" rel="noopener">Local Flavors Bring Together People From Around the World</a></h4>
+            <p>A feature on Cobb’s Popcorn at Pike Place Market, co-reported with Ruiyu Tang. I was <a href="https://www.aaja.org/2025/07/28/aaja-announces-jcamp-2025-cohort/" target="_blank" rel="noopener">one of about 30 high school students nationwide</a> selected for the Asian American Journalists Association’s fully funded journalism program, mentored by reporters from outlets like The Washington Post and The Wall Street Journal.</p>
+          </article>
+          <article class="piece">
+            <p class="piece-kicker">The WEB · Ames High School · Jan 2024</p>
+            <h4><a href="https://www.ameshighweb.com/news/2024/01/23/in-ames-caucus-voters-hesitate-on-trump-look-to-more-moderate-candidates/" target="_blank" rel="noopener">In Ames Caucus Voters Hesitate on Trump, Look to More Moderate Candidates</a></h4>
+            <p>On-the-ground reporting from the 2024 Iowa Republican caucuses, which had the lowest turnout in years, about voters who leaned away from the frontrunner.</p>
+          </article>
+        </div>
+        <p class="footnote">Also: Iowa Young Writers’ Studio, Creative Nonfiction (2025) · Staff writer, <em>Stanford Political Review</em> · creative writing &amp; journalism workshops for 100+ middle schoolers.</p>
+      </div>
+    </section>
+
+    <!-- ============ III. POLICY ============ -->
+    <section id="policy" class="section">
+      <div class="section-head">
+        <p class="section-num">III.</p>
+        <h2>Policy</h2>
+        <p>Legislation, advocacy and the law, from the Iowa Capitol to Washington, D.C.</p>
+      </div>
+
+      <article class="feature">
+        <div class="feature-stat">
+          <span class="stat-num">$14.5M</span>
+          <span class="stat-label">in annual federal Perkins funding opened to student organizations</span>
+        </div>
+        <div class="feature-body">
+          <p class="piece-kicker">Iowa FIRST Student Leadership Board · VP of Business &amp; Legislative Chair · 2024–2026</p>
+          <h4><a href="https://www.legis.iowa.gov/legislation/BillBook?ga=91&amp;ba=sf278" target="_blank" rel="noopener">Iowa Senate File 278</a></h4>
+          <p>I led the effort behind SF 278, which opens a pathway for career and technical student organizations, including FIRST robotics teams, to access federal Perkins funding. <strong>It passed the Iowa Senate unanimously.</strong> I also organized statewide initiatives for 10,000+ Iowa FIRST participants, including FIRST Day at the Capitol.</p>
+          <p class="more"><a href="https://www.legis.iowa.gov/legislation/BillBook?ga=91&amp;ba=sf278" target="_blank" rel="noopener">Read the bill →</a></p>
+        </div>
+      </article>
+
+      <div class="grid grid-2 after-story">
+        <article class="piece">
+          <p class="piece-kicker">Harden Law, PLLC · Washington, D.C. · Summer 2025</p>
+          <h4>Legal intern to attorney Brandi Harden</h4>
+          <p>I worked on an active criminal case with public defender and attorney Brandi Harden. I analyzed case documents, motions, affidavits and testimony to help prepare our client for his upcoming trial.</p>
+          <p>I also advocated and lobbied on Capitol Hill for criminal law and prison reform.</p>
+        </article>
+        <article class="piece">
+          <p class="piece-kicker">Stanford</p>
+          <h4>Law &amp; policy on campus</h4>
+          <p>I’m a speaker and handle alumni relations for Stanford Women in Law, and I write on policy as a staff writer for the <em>Stanford Political Review</em>.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>The short version. <a href="resume.pdf" target="_blank" rel="noopener">Full résumé (PDF)</a></p>
+      </div>
+      <ol class="timeline">
+        <li><span class="when">2025–2026</span><div><strong>Robotics Intern</strong>, Iowa State University, Dept. of Agricultural &amp; Biosystems Engineering</div></li>
+        <li><span class="when">2024–2026</span><div><strong>Research &amp; Software Intern</strong>, NSF ChemMatCARS, Argonne National Laboratory &amp; University of Chicago</div></li>
+        <li><span class="when">2024–2026</span><div><strong>VP of Business &amp; Legislative Chair</strong>, Iowa FIRST Robotics Student Leadership Board</div></li>
+        <li><span class="when">2022–2026</span><div><strong>Team Captain (2024–26) &amp; Technical Lead</strong>, FRC Team Neutrino #3928</div></li>
+        <li><span class="when">Summer 2025</span><div><strong>Legal Intern</strong>, Harden Law, PLLC, Washington, D.C.</div></li>
+        <li><span class="when">2022–now</span><div><strong>STEM Education &amp; Writing Instructor</strong>, independent programs and tutoring</div></li>
+      </ol>
+
+      <div class="two-col">
+        <div>
+          <h3 class="small-head">At Stanford</h3>
+          <ul class="plain">
+            <li>Stanford Student Robotics, Autonomous Underwater Vehicles (Electrical &amp; Business)</li>
+            <li>Stanford IEEE, Industry &amp; Hackathon Team</li>
+            <li><em>The Stanford Daily</em>, Columnist</li>
+            <li><em>Stanford Political Review</em>, Staff Writer</li>
+            <li>Stanford Women in Law, Speaker &amp; Alumni Relations</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="small-head">Programs</h3>
+          <ul class="plain">
+            <li>Jane Street Women in STEM (WiSE) Program, 2026</li>
+            <li>AAJA JCamp, 2025</li>
+            <li>Iowa Young Writers’ Studio, Creative Nonfiction, 2025</li>
+            <li>NCWIT Aspirations in Computing Impact Award</li>
+          </ul>
+          <p class="skills"><span>Python</span><span>C++</span><span>Java</span><span>R</span><span>HTML</span><span>OpenCV</span><span>PyTorch</span><span>scikit-learn</span><span>NumPy</span><span>Git</span><span>PCB design</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OFFLINE ============ -->
+    <section id="offline" class="section offline">
+      <div class="section-head">
+        <h2>Offline</h2>
+      </div>
+      <div class="offline-grid">
+        <div class="offline-item">
+          <p class="piece-kicker">Reading</p>
+          <p>You’ll usually find me with a book in hand. <a href="mailto:sqyao@stanford.edu?subject=A%20book%20rec%20for%20you">Send me a recommendation →</a></p>
+        </div>
+        <div class="offline-item">
+          <p class="piece-kicker">Writing</p>
+          <p>Personal essays, people-watching at cafés, and wandering the aisles of a grocery store for material.</p>
+        </div>
+        <div class="offline-item">
+          <p class="piece-kicker">Disney</p>
+          <p>A lifelong fan of the parks, the movies, and all of it.</p>
+        </div>
+        <div class="offline-item">
+          <p class="piece-kicker">Movies</p>
+          <p>Always up for a movie night, and always happy to argue about the ending.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <h2>Let’s talk.</h2>
+      <p>I’m open to opportunities where technology meets humanity.</p>
+      <p class="contact-links">
+        <a href="mailto:sqyao@stanford.edu">sqyao@stanford.edu</a>
+        <a href="https://www.linkedin.com/in/ssarahyao" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/ssarahyao" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Sarah Yao</p>
+  </footer>
+
+  <script>
+    // Photo slideshow: arrow buttons, swipe (native scroll), and keyboard arrows.
+    document.querySelectorAll('[data-slideshow]').forEach(function (show) {
+      var track = show.querySelector('.slides');
+      var slides = show.querySelectorAll('.slide');
+      var count = show.querySelector('[data-count]');
+      function current() { return Math.round(track.scrollLeft / track.clientWidth); }
+      function go(i) {
+        i = (i + slides.length) % slides.length;
+        track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' });
+      }
+      show.querySelector('[data-prev]').addEventListener('click', function () { go(current() - 1); });
+      show.querySelector('[data-next]').addEventListener('click', function () { go(current() + 1); });
+      track.addEventListener('scroll', function () { count.textContent = (current() + 1) + ' / ' + slides.length; });
+      track.setAttribute('tabindex', '0');
+      track.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') { e.preventDefault(); go(current() + 1); }
+        if (e.key === 'ArrowLeft') { e.preventDefault(); go(current() - 1); }
+      });
+    });
+  </script>
+</body>
+</html>
