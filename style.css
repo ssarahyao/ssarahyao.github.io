@@ -1,5 +1,6 @@
 /* ===== Colors: edit these to re-theme the whole site ===== */
 :root {
+  color-scheme: light;
   --paper: #f6f1e7;
   --paper-2: #efe7d8;
   --ink: #1f1b16;
@@ -16,17 +17,6 @@
   --gutter: clamp(16px, 4vw, 40px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #17140f;
-    --paper-2: #211d17;
-    --ink: #ece4d6;
-    --ink-soft: #a89d8d;
-    --rule: #3a342b;
-    --accent: #e0796d;
-    --accent-soft: #e89a90;
-  }
-}
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -230,6 +220,7 @@ a.todo { text-decoration: underline dashed var(--accent-soft); text-underline-of
 }
 .when { font-family: var(--mono); font-size: 13px; color: var(--ink-soft); padding-top: 3px; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.small-head-gap { margin-top: 28px !important; }
 .small-head {
   font-family: var(--display);
   font-weight: 500;
@@ -378,7 +369,7 @@ a.todo { text-decoration: underline dashed var(--accent-soft); text-underline-of
 .piece p a { color: var(--accent); }
 
 /* ===== Offline ===== */
-.offline-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; }
+.offline-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; }
 .offline-item { padding: 0 20px; border-left: 1px solid var(--rule); }
 .offline-item:first-child { padding-left: 0; border-left: 0; }
 .offline-item p:last-child { margin: 0; font-size: 17px; }
@@ -398,7 +389,7 @@ a.todo { text-decoration: underline dashed var(--accent-soft); text-underline-of
   .timeline li { grid-template-columns: 1fr; gap: 2px; }
   .story { grid-template-columns: 1fr; }
   .slideshow { position: static; }
-  .offline-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .offline-grid { grid-template-columns: 1fr; gap: 24px; }
   .offline-item, .offline-item:first-child { padding: 0; border-left: 0; }
   .ledger div { grid-template-columns: 1fr; gap: 2px; }
   body { font-size: 17px; }
